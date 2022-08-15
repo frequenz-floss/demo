@@ -1,5 +1,5 @@
 blank_issues_enabled: true
 contact_links:
-  - name: Ask a question
+  - name: ❓ Ask a question
     url: https://github.com/frequenz-floss/demo/discussions
-    about: Ask a question if you are not sure how to do something, have installation problems, etc.
+    about: Use this if you are not sure how to do something, have installation problems, etc.
