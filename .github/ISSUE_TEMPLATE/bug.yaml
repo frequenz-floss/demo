@@ -1,5 +1,5 @@
 name: Bug Report 🐛
-description: File a bug report
+description: Create a bug report if there is something that is not working properly
 title: "Bug: "
 labels: part:❓, priority:❓, type:bug
 body:
