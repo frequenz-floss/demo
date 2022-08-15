@@ -1,6 +1,5 @@
 name: ✨ Request a feature or enhancement 
 description: Use this if something is missing or could be done better or easier.
-title: "Enhancement: "
 labels: part:❓, priority:❓, type:enhancement
 body:
   - type: markdown
