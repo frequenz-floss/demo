@@ -34,7 +34,7 @@ body:
       description: Please tell us if you tried any alternatives or workarounds for those use cases and how (un)useful they are.
       placeholder: Any alternatives or workarounds for those use cases and how (un)useful they are.
   - type: textarea
-    id: alternatives
+    id: additional-context
     attributes:
       label: Additional context
       description: Please add any addition information here, screenshots, diagrams, etc.
