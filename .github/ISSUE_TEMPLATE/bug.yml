@@ -1,5 +1,5 @@
-name: Bug Report 🐛
-description: Create a bug report if there is something that is not working properly
+name: 🐛 Report something is not working properly
+description: Use this if there is something that is not working properly
 title: "Bug: "
 labels: part:❓, priority:❓, type:bug
 body:
@@ -49,3 +49,6 @@ body:
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
+  - type: markdown
+    attributes:
+      value: <!-- form-version:v1.0.0 -->
