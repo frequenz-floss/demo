@@ -1,6 +1,5 @@
 name: 🐛 Report something is not working properly
-description: Use this if there is something that is not working properly
-title: "Bug: "
+description: Use this if there is something that is not working properly.  If you are not sure or you need help making something work, please ask a question instead.
 labels: part:❓, priority:❓, type:bug
 body:
   - type: markdown
