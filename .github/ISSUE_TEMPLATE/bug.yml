@@ -1,3 +1,4 @@
+# form-version: v1.0.0
 name: Report something is not working properly 🐛
 description: Use this if there is something that is not working properly.  If you are not sure or you need help making something work, please ask a question instead.
 labels: part:❓, priority:❓, type:bug
@@ -26,35 +27,35 @@ body:
     id: version
     attributes:
       label: Version
-      description: What version of our software are you running?
+      description: Which version(s) have you tried and have this issue? (if you see this issue **not** happening on any version, please let us know in the "Extra information")
+      multiple: true
       options:
-        - 1.0.2
-        - 1.0.3
+        - version-1.0.2
+        - version-1.0.3
+        - version-older
+        - version-unknown
     validations:
       required: true
   - type: dropdown
     id: arch
     attributes:
-      label: What architecture are you seeing the problem on?
+      label: Architecture
+      description: "Please select all the architectures where this happensaffected by this. Don't select anything if you know it is an architecture independent issue, but select all if."
       multiple: true
       options:
-        - x86_64
-        - amr64
-        - unknown
+        - arch-x86_64
+        - arch-amr64
+        - arch-other
+        - arch-unknown
   - type: textarea
     id: logs
     attributes:
       label: Relevant log output
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
-  - type: checkboxes
-    id: terms
+  - type: textarea
+    id: extra
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
-  - type: markdown
-    attributes:
-      value: <!-- form-version:v1.0.0 -->
+      label: Extra information
+      description: Please write here any extra information you think it might be relevant, like if this didn't happened before or if you suspect where the problem might be.
+      placeholder: Any extra information you think it might be relevant.
