@@ -3,4 +3,5 @@
   - LICENSE
 
 "part:tooling":
+  - ".gitignore"
   - ".github/**"
