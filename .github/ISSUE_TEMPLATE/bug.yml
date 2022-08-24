@@ -1,6 +1,6 @@
 # form-version: v1.0.0
 name: Report something is not working properly 🐛
-description: Use this if there is something that is not working properly.  If you are not sure or you need help making something work, please ask a question instead.
+description: Use this if there is something that is not working properly.  If you are not sure or you need help making something work, please [ask a question](https://github.com/frequenz-floss/frequenz-api-microgrid-proto/discussions/new?category=support) instead.
 labels: part:❓, priority:❓, type:bug
 body:
   - type: markdown
