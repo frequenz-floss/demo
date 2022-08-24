@@ -47,6 +47,19 @@ body:
         - arch-amr64
         - arch-other
         - arch-unknown
+  - type: dropdown
+    id: part
+    attributes:
+      label: Affected part(s)
+      description: Which parts of the repo are affected by this issue? Select all that applies
+      multiple: true
+      options:
+        - part:❓ (I don't know)
+        - Documentation (part:docs)
+        - Unit, integration and performance tests <part:tests>
+        - Development tooling (CI, dependencies, build script, etc.) <part:tooling>
+    validations:
+      required: true
   - type: textarea
     id: logs
     attributes:

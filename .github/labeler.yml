@@ -1,0 +1,6 @@
+"part:docs": 
+  - "*.md"
+  - LICENSE
+
+"part:tooling":
+  - ".github/**"
